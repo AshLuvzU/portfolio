@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Mario the idea VS Mario the man is a satirical essay and i felt it would be very funny to try and optimize-->
+<XML>
+    <info>
+        <author who="phil jamesson"> Phil Jamesson</author>
+        <class what="philosophy 101">Philosophy 101</class>
+        <date when="2022-02-18">02/18/22</date>
+        <purpose what="midterm">Midterm 1</purpose>
+    </info>
+    <firstPara>
+        <intro>
+            <opinion what="true">Everyone knows <person who="mario">Mario</person> is cool as
+                fuck.</opinion>
+        </intro>
+        <idea>But who knows what he's thinking?</idea>
+        <idea>Who knows why he <action what="crushes">crushes turtles?</action></idea>
+        <idea>And why do we think about him as fondly as we think of the mystical (nonexistent?)
+                <person who="dr pepper">Dr Pepper?</person></idea>
+        <perchance>Perchance. </perchance>
+    </firstPara>
+    <secPara> I believe it was <person who="kant">Kant</person> who said <quote>"Experience without
+            theory is blind, but theory without experience is mere intellectual play."</quote>
+        <person who="mario">Mario</person> exhibits experience by <action what="crushing">crushing
+            turts</action> all day, but he exhibits theory by stating <phrase>"Lets-a go!"</phrase>
+        Keep it up, baby!</secPara>
+    <thirdPara>When Mario leaves his place of safety to <action what="stomp">stomp a turty,</action>
+        he knows that he may <action what="die">Die.</action> And yet, for <idea>a man who can
+            purchase lives with money, a life becomes a mere store of value.</idea> A tax that can
+        be paid for, much as <idea>a rich man feels any law with a fine is a price.</idea> We think
+        of <person who="mario">Mario</person> as a hero,but <idea>he is simply a one percenter of a
+            more privileged variety.</idea> The lifekind.
+        <perchance>Perchance.</perchance></thirdPara>
+</XML>
+<!--This is extremly stupid and im sorry, but this is also very funny to me and i enjoyed doing it-->
+<!--Despite this being a joke i am learning a lot about XML-->

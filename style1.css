@@ -1,0 +1,25 @@
+body {
+    background: papayawhip;
+    font-family: fantasy;
+}
+section.edu {
+    background: azure;
+    width: 80%;
+    margin: auto;
+    padding: 1em;
+}
+section.work {
+    background: LavenderBlush;
+    width: 80%;
+    margin: auto;
+    padding: 1em;   
+}
+section.life {
+    background: honeydew;
+    width: 80%;
+    margin: auto;
+    padding: 1em;
+}
+img {
+    width: 20%;
+}

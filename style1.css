@@ -2,7 +2,7 @@ body {
     background: papayawhip;
     font-family: fantasy;
 }
-section.edu {
+section.edu{
     background: azure;
     width: 80%;
     margin: auto;
@@ -12,10 +12,16 @@ section.work {
     background: LavenderBlush;
     width: 80%;
     margin: auto;
-    padding: 1em;   
+    padding: 1em;
 }
 section.life {
     background: honeydew;
+    width: 80%;
+    margin: auto;
+    padding: 1em;
+}
+section.skills {
+    background: Lavender;
     width: 80%;
     margin: auto;
     padding: 1em;

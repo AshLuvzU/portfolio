@@ -13,9 +13,9 @@
             <a href="resume1.html">Resume</a>
         </nav>
         <section class="digital-art">
-            <h1>Digital Portraits</h1> This section will display some of my digital
-                    portraits.<figure><img class="me"
-                    src="pictures%20for%20website/Untitled_Artwork%203.png" />
+            <h1>Digital Portraits</h1>
+            <p>This section will display some of my digital portraits.</p>
+            <figure><img class="me" src="pictures%20for%20website/Untitled_Artwork%203.png" />
                 <figcaption class="me">Self-portrait I painted in high school, May 2022</figcaption>
             </figure>
             <figure>
@@ -31,6 +31,17 @@
                 <img class="body" src="pictures%20for%20website/Untitled_Artwork.png" />
                 <figcaption class="body"> This is technically not a portrait, but just a painting of
                     a Roman statue, January 2024, WIP</figcaption>
+            </figure>
+            <figure>
+                <img onmouseover="gleeby(this)" onmouseout="ungleeby(this)" class="gleeby"
+                    src="pictures%20for%20website/55775e17766207c86976f48d40e8eaf5.gif" />
+                <script>
+                        function gleeby(x) {
+                            x.src = "pictures%20for%20website/55775e17766207c86976f48d40e8eaf5.png"
+                        }
+                        function ungleeby(x) {
+                            x.src = "pictures%20for%20website/55775e17766207c86976f48d40e8eaf5.gif"
+                        }</script>
             </figure>
         </section>
     </body>

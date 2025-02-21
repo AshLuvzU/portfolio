@@ -33,62 +33,84 @@ section.digital-art {
     padding: 1em;
 }
 img.me {
-    width: 30%;
+    width: 40%;
     position: relative;
     border-style: solid;
     border-color: navy;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
+
 figcaption.me {
-    width: 30%;
+    width: 40%;
     position: relative;
     border-style: dotted;
     word-wrap: normal;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 img.lady {
-    width: 30%;
-    position: relative;  
-    left: 450px;
-    top: -607px;
+    width: 40%;
+    position: relative;
     border-style: solid;
     border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 figcaption.lady {
-    width: 30%;
+    width: 40%;
     position: relative;
-    left: 455px;
-    top: -607px;
     border-style: dotted;
     word-wrap: normal;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 img.color {
-    width: 30%;
-    position: relative;
-    left: 910px;
-    top: -1162px;
+    width: 40%;
     border-style: solid;
     border-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 figcaption.color {
-    width: 30%;
+    width: 40%;
     position: relative;
-    left: 910px;
-    top: -1162px;
     border-style: dotted;
     word-wrap: normal;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 img.body {
-    width: 30%;
+    width: 40%;
     position: relative;
-    left: 450px;
-    top: -1200px;
     border-style: solid;
     border-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 figcaption.body {
-    width: 30%;
+    width: 40%;
     position: relative;
-    left: 450px;
-    top: -1200px;
     border-style: dotted;
     word-wrap: normal;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+img.gleeby {
+    width: 20%;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
 }

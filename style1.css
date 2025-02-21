@@ -1,40 +1,74 @@
 body {
-    background: floralwhite;
-    font-family: fantasy;
+    background-image: url("pictures for website/space.png");
+    background-color: floralwhite;
+    font-family: garamond;
+    color: white;
+}
+.header {
+    padding: 2em;
+    background: darkslateblue;
+    border: white;
+    border-style: solid;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: mediumvioletred;
 }
 section.edu {
-    background: tan;
+    background: darkmagenta;
     width: 80%;
+    border: white;
+    border-style: solid;
     margin: auto;
     padding: 1em;
 }
 section.work {
-    background: plum;
+    background: rebeccapurple;
     width: 80%;
+    border: white;
+    border-style: solid;
     margin: auto;
     padding: 1em;
 }
 section.life {
-    background: darkseagreen;
+    background: darkmagenta;
     width: 80%;
+    border: white;
+    border-style: solid;
     margin: auto;
     padding: 1em;
 }
 section.skills {
-    background: gainsboro;
+    background: mediumslateblue;
     width: 80%;
+    border: white;
+    border-style: solid;
     margin: auto;
     padding: 1em;
 }
 section.digital-paint {
-    background: palegoldenrod;
+    background: darkmagenta;
     width: 80%;
+    border: white;
+    border-style: solid;
     margin: auto;
     padding: 1em;
 }
 section.digital-draw {
-    Background: lightsteelblue;
+    Background: rebeccapurple;
     width: 80%;
+    border: white;
+    border-style: solid;
+    margin: auto;
+    padding: 1em;
+}
+section.DIGIT {
+    background: mediumslateblue;
+    width: 80%;
+    border: white;
+    border-style: solid;
     margin: auto;
     padding: 1em;
 }
@@ -42,7 +76,7 @@ img.me {
     width: 40%;
     position: relative;
     border-style: solid;
-    border-color: navy;
+    border-color: white;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -62,7 +96,7 @@ img.lady {
     width: 40%;
     position: relative;
     border-style: solid;
-    border-color: black;
+    border-color: white;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -80,7 +114,7 @@ figcaption.lady {
 img.color {
     width: 40%;
     border-style: solid;
-    border-color: red;
+    border-color: white;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -99,7 +133,7 @@ img.body {
     width: 40%;
     position: relative;
     border-style: solid;
-    border-color: gray;
+    border-color: white;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -115,7 +149,7 @@ figcaption.body {
     display: block;
 }
 img.gleeby {
-    width: 20%;
+    width: 15%;
     position: fixed;
     bottom: 0%;
     right: 0%;

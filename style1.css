@@ -1,33 +1,39 @@
 body {
-    background: papayawhip;
+    background: floralwhite;
     font-family: fantasy;
 }
 section.edu {
-    background: azure;
+    background: tan;
     width: 80%;
     margin: auto;
     padding: 1em;
 }
 section.work {
-    background: LavenderBlush;
+    background: plum;
     width: 80%;
     margin: auto;
     padding: 1em;
 }
 section.life {
-    background: honeydew;
+    background: darkseagreen;
     width: 80%;
     margin: auto;
     padding: 1em;
 }
 section.skills {
-    background: Lavender;
+    background: gainsboro;
     width: 80%;
     margin: auto;
     padding: 1em;
 }
-section.digital-art {
-    background: floralwhite;
+section.digital-paint {
+    background: palegoldenrod;
+    width: 80%;
+    margin: auto;
+    padding: 1em;
+}
+section.digital-draw {
+    Background: lightsteelblue;
     width: 80%;
     margin: auto;
     padding: 1em;

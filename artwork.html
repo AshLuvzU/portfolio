@@ -5,6 +5,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="style1.css" />
+
     </head>
     <body>
         <h1>Gallery</h1>
@@ -12,9 +13,9 @@
             <a href="about me.html">About Me</a>
             <a href="resume1.html">Resume</a>
         </nav>
-        <section class="digital-art">
-            <h1>Digital Portraits</h1>
-            <p>This section will display some of my digital portraits.</p>
+        <section class="digital-paint">
+            <h1>Digital Paintings</h1>
+            <p>This section will display some of my digital paintings.</p>
             <figure><img class="me" src="pictures%20for%20website/Untitled_Artwork%203.png" />
                 <figcaption class="me">Self-portrait I painted in high school, May 2022</figcaption>
             </figure>
@@ -29,25 +30,26 @@
             </figure>
             <figure>
                 <img class="body" src="pictures%20for%20website/Untitled_Artwork.png" />
-                <figcaption class="body"> This is technically not a portrait, but just a painting of
-                    a Roman statue, January 2024, WIP</figcaption>
+                <figcaption class="body">A painting of a statue found on Pinterest, January 2024,
+                    WIP</figcaption>
             </figure>
             <figure>
-                <img onmouseover="gleeby(this)" onmouseout="ungleeby(this)" onclick="woaw(this)"
-                    class="gleeby"
-                    src="pictures%20for%20website/55775e17766207c86976f48d40e8eaf5.gif" />
+                <img id="gleeby" class="gleeby"
+                    src="pictures%20for%20website/55775e17766207c86976f48d40e8eaf5.gif"
+                    onmouseover="gleeby(this)" onmouseout="ungleeby(this)" />
                 <script>
                         function gleeby(x) {
                             x.src = "pictures%20for%20website/55775e17766207c86976f48d40e8eaf5.png"
                         }
                         function ungleeby(x) {
                             x.src = "pictures%20for%20website/55775e17766207c86976f48d40e8eaf5.gif"
-                        }
-                        
-                        function woaw(x) {
-                            x.src = "pictures%20for%20website/woaw.png"
                         }</script>
             </figure>
+        </section>
+        <section class="digital-draw">
+            <h2>Digital Art</h2>
+            <p>This section will be all the digital drawings I' ve done, mainly including pieces in
+                my own style, my own characters, and some fanart.</p>
         </section>
     </body>
 </html>

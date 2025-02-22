@@ -72,6 +72,14 @@ section.DIGIT {
     margin: auto;
     padding: 1em;
 }
+section.tech-skills {
+    background: darkmagenta;
+    width: 80%;
+    border: white;
+    border-style: solid;
+    margin: auto;
+    padding: 1em;
+}
 img.me {
     width: 40%;
     position: relative;
@@ -81,7 +89,6 @@ img.me {
     margin-right: auto;
     display: block;
 }
-
 figcaption.me {
     width: 40%;
     position: relative;
@@ -153,4 +160,14 @@ img.gleeby {
     position: fixed;
     bottom: 0%;
     right: 0%;
+}
+img.rl-me {
+    width: 15%;
+    position: relative;
+    border: white;
+    border-style: solid;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
 }

@@ -16,6 +16,9 @@ a:visited {
 a:hover {
     color: mediumvioletred;
 }
+a:link {
+    color: mediumpurple;
+}
 section.edu {
     background: darkmagenta;
     width: 80%;

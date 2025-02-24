@@ -119,13 +119,13 @@ img {
 figcaption {
     width: 40%;
     position: relative;
-    border-style: dotted;
     word-wrap: normal;
     font-size: 30px;
     margin-left: auto;
     margin-right: auto;
     display: block;
     text-align: center;
+    vertical-align: sub;
 }
 img.gleeby {
     width: 10%;

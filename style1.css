@@ -83,7 +83,31 @@ section.tech-skills {
     margin: auto;
     padding: 1em;
 }
-img.me {
+section.extra {
+    background: rebeccapurple;
+    width: 80%;
+    border: white;
+    border-style: solid;
+    margin: auto;
+    padding: 1em;
+}
+section.info {
+    background: rebeccapurple;
+    width: 80%;
+    border: white;
+    border-style: solid;
+    margin: auto;
+    padding: 1em;
+}
+section.rl-paint {
+    background: mediumslateblue;
+    width: 80%;
+    border: white;
+    border-style: solid;
+    margin: auto;
+    padding: 1em;
+}
+img {
     width: 40%;
     position: relative;
     border-style: solid;
@@ -92,7 +116,7 @@ img.me {
     margin-right: auto;
     display: block;
 }
-figcaption.me {
+figcaption {
     width: 40%;
     position: relative;
     border-style: dotted;
@@ -101,68 +125,14 @@ figcaption.me {
     margin-left: auto;
     margin-right: auto;
     display: block;
-}
-img.lady {
-    width: 40%;
-    position: relative;
-    border-style: solid;
-    border-color: white;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-figcaption.lady {
-    width: 40%;
-    position: relative;
-    border-style: dotted;
-    word-wrap: normal;
-    font-size: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-img.color {
-    width: 40%;
-    border-style: solid;
-    border-color: white;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-figcaption.color {
-    width: 40%;
-    position: relative;
-    border-style: dotted;
-    word-wrap: normal;
-    font-size: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-img.body {
-    width: 40%;
-    position: relative;
-    border-style: solid;
-    border-color: white;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-figcaption.body {
-    width: 40%;
-    position: relative;
-    border-style: dotted;
-    word-wrap: normal;
-    font-size: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+    text-align: center;
 }
 img.gleeby {
-    width: 15%;
+    width: 10%;
     position: fixed;
     bottom: 0%;
     right: 0%;
+    border-style: none;
 }
 img.rl-me {
     width: 15%;

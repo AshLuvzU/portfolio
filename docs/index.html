@@ -1,57 +1,49 @@
-<!DOCTYPE html>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <!-- Try opening this file on your local computer in a web browser (Firefox, Chrome, etc). 
-     * On Windows, go to the browser and type control + o and browse to find this file to open it.
-     * On Mac, go to the browser and type command + o and browse to find this file to open it. 
-     Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
-    -->
     <head>
-        <!-- What's in the <head> element is a "meta" area not for display. 
-            It holds important information about the website's contents.
-            The text inside the <title> element does show in the top tab of a web browser. 
-             The <head> is where we will include info about styling the site, too. -->
-        <title>Starter HTML</title>
+        <title>About Me</title>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Here is a place where we can add a little styling code called CSS to this page. 
-            I used it to apply a background color to the body element.
-        -->
-        <!-- This code below is called CSS: It stands for Cascading Stylesheets -->
-        <link rel="stylesheet" type="text/css" href="style.css" />
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="style1.css" />
     </head>
     <body>
-        <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
-        <h1>Beginning HTML</h1>
-        <p>Here is some sample HTML to look at. This is a body paragraph with some
-                <strong>inline</strong> code to feature some text. Here is <a
-                href="https://behrend.psu.edu/penn-state-behrend">a link to an external
-            website</a>.</p>
-        <p>One of the best resources for learning HTML is <a href="https://www.w3schools.com/html/default.asp">w3Schools</a>. 
-            Here is a reference for <a href="https://htmlcolorcodes.com/">color codes you can use for styling</a>.</p>
-        <p>Each p element is a <strong>block</strong> element designed to make a block on the
-            page.</p>
-        <h2>What are block elements good for?</h2>
-        <p>The next element after this is a ul, or <q>unordered list</q>. It makes a bulleted list. This is a lie, this list is now numbered.</p>
-        <ol>
-            <li>headings</li>
-            <li>paragraphs</li>
-            <li>lists</li>
-            <li>tables</li>
-            <li>images</li>
-        </ol>
-        
-        <p>How about we look at an ol element, or <q>ordered</q> list? The code looks very similar to the <q>unordered</q> list. 
-            You have to see the difference by viewing in a web browser. This is also a lie now, this list is unnumbered.</p>
-        <ul>
-            <li>morning</li>
-            <li>noon</li>
-            <li>afternoon</li>
-            <li>evening</li>
-            <li>night</li>
-        </ul>
+        <div class="header">
+            <h1>About Me</h1>
+            <nav>
+                <a href="resume1.html">Resume</a>
+                <a href="artwork.html">Gallery</a>
+            </nav>
+        </div>
         <figure>
-            <img src="../../../../Downloads/cat.jpg"/>
-            <figcaption>an image of a cat, was a newt previously.</figcaption>
-        </figure> 
+            <img onmouseover="gleeby(this)" onmouseout="ungleeby(this)" class="gleeby"
+                src="pictures%20for%20website/55775e17766207c86976f48d40e8eaf5.gif" />
+            <script>
+                    function gleeby(x) {
+                        x.src = "pictures%20for%20website/55775e17766207c86976f48d40e8eaf5.png"
+                    }
+                    function ungleeby(x) {
+                        x.src = "pictures%20for%20website/55775e17766207c86976f48d40e8eaf5.gif"
+                    }</script>
+        </figure>
+        <section class="life">
+            <h1>Introduction</h1>
+            <p>Hi, my name is Ash and im a DIGIT major at Penn State Behrend with a Data
+                Visualization minor. This website serves as a sort of portfolio and will include
+                things such as a resume and gallery of all my artwork and past DIGIT projects.</p>
+            <p>Here are a couple pictures of me so you can put a face to the name!</p>
+            <div class="flex-container">
+                <img class="rl-me" src="pictures%20for%20website/Luna%20sleepy.jpg" />
+                <img class="rl-me" src="pictures%20for%20website/IMG_1424.jpg" />
+                <img class="rl-me" src="pictures%20for%20website/IMG_2415.jpg" />
+            </div>
+        </section>
+        <section class="info">
+            <h1>A bit about me</h1>
+            <p>As you can see within my gallery, I am a sort of artist. I usually work digitally,
+                but I have done a couple of oil paintings and fell in love with the medium. I have
+                been drawing since I was a little kid and its made me the creative that I am
+                today.</p>
+        </section>
     </body>
 </html>

@@ -140,6 +140,18 @@ img.rl-me {
     border: white;
     border-style: solid;
 }
+img.TTWLITF {
+    width: 20%;
+    position: relative;
+    border: white;
+    border-style: solid;
+}
+img.kumu {
+    width: 30%;
+    position: relative;
+    border: white;
+    border-style: solid;
+}
 .flex-container {
     display: flex;
     justify-content: space-evenly;
